@@ -1,0 +1,175 @@
+/* Website Styles */
+
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+  color: #186763;
+  font-family: "garamond',serif";
+  font-size: 20px;
+  /* margin: 50px; */
+  line-height: 1.5;
+  padding: 40px;
+  background: url('bananas.png') 300%;
+
+  /* background-repeat: no-repeat; */
+}
+
+/* Groups */
+
+header,
+section,
+footer {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid grey;
+}
+
+a {
+  background-color:gray;
+  color:black;
+  text-decoration: none;
+}
+
+a:link,
+a:focus,
+a:visited,
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  font-size: 50px;
+  font-weight: 900;
+  color: red;
+  font-style: italic;
+  line-height: 1;
+  text-align: left;
+  border-bottom: 5px solid black;
+  border-top: 2px solid black;
+  border-left: 2px dotted black;
+  border-right: 2px dotted black;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 84px;
+  background-color: gold;
+  text-shadow: 0 5px black;
+
+}
+
+h4 {
+  font-size: 30px;
+  color: #b22222;
+}
+
+{
+
+}
+
+h3 {
+  font-size: 35px;
+  color: #b22222;
+}
+
+header {
+  background-color:silver;
+  font-size: 20px;
+  background-image:url(images/smokey.jpg);
+  height:400px;
+
+}
+
+p {
+  font-size:30px;
+  background-color: #d287eb;
+  color: #b22222;
+  line-height:2;
+  margin: 15px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul, ol {
+  margin: 15px 0;
+}
+
+h2 {
+  font-size: 45px;
+  background-color: transparent;
+  font-weight: bolder;
+}
+
+h3, h2 {
+  font-weight: 600;
+  font-style: italic;
+  line-height: 2;
+  text-align: left;
+  margin-bottom:20px;
+  font-size: 50px;
+}
+
+h4 {
+  font-weight: 300;
+  font-style: bold;
+}
+
+.title {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+section{
+  /* width:50%; */
+  /* height:50%; */
+}
+
+header img {
+  border: 1px ridge black;
+  width: 24%;
+}
+
+footer{
+  background-color: #d287eb;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url('images/smokes.jpeg');
+  height:350px;
+  background-size: 75%;
+  background-position: center;
+}
+
+/* .float-image {
+  float: left;
+  height: 350px;
+  width: 350px;
+  margin-right:15px;
+  margin-left:15px;
+} */
+
+section {
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  border: solid;
+}
