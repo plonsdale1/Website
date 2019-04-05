@@ -32,8 +32,8 @@ footer {
 }
 
 a {
-  background-color:gray;
-  color:black;
+  /* background-color:gray; */
+  /* color:black; */
   text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ header{
 
 footer{
   background-color: #d287eb;
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
   text-align: center;
 
 }
