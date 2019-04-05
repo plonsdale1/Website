@@ -15,7 +15,7 @@ body {
   /* margin: 50px; */
   line-height: 1.5;
   padding: 40px;
-  background: url('bananas.png') 300%;
+  background: url('images/weather.png') 300%;
 
   /* background-repeat: no-repeat; */
 }
@@ -27,7 +27,8 @@ section,
 footer {
   padding: 10px;
   margin: 10px;
-  border: 2px solid grey;
+  text-align: left;
+  /* border: 2px solid grey; */
 }
 
 a {
@@ -72,10 +73,7 @@ header h1 {
 h4 {
   font-size: 30px;
   color: #b22222;
-}
-
-{
-
+  font-style: italic;
 }
 
 h3 {
@@ -83,13 +81,11 @@ h3 {
   color: #b22222;
 }
 
-header {
+/* header {
   background-color:silver;
   font-size: 20px;
-  background-image:url(images/smokey.jpg);
-  height:400px;
-
-}
+  /* background-image:url(images/smokey.jpg); */
+  /* height:400px; */
 
 p {
   font-size:30px;
@@ -105,24 +101,13 @@ ul, ol {
   margin: 15px 0;
 }
 
-h2 {
-  font-size: 45px;
-  background-color: transparent;
-  font-weight: bolder;
-}
-
 h3, h2 {
   font-weight: 600;
   font-style: italic;
   line-height: 2;
-  text-align: left;
+  text-align: Center;
   margin-bottom:20px;
-  font-size: 50px;
-}
-
-h4 {
-  font-weight: 300;
-  font-style: bold;
+  font-size: 40px;
 }
 
 .title {
@@ -133,15 +118,18 @@ h4 {
 section{
   /* width:50%; */
   /* height:50%; */
+  border: 2px solid grey;
 }
 
-header img {
-  border: 1px ridge black;
-  width: 24%;
+header{
+  text-align: center;
 }
 
 footer{
   background-color: #d287eb;
+  border: 2px solid grey;
+  text-align: center;
+
 }
 
 .container {
@@ -151,7 +139,7 @@ footer{
 
 .banner {
   background-image: url('images/smokes.jpeg');
-  height:350px;
+  height:300px;
   background-size: 75%;
   background-position: center;
 }
@@ -171,5 +159,5 @@ section {
 .column {
   float: left;
   width: 50%;
-  border: solid;
+  /* border: solid; */
 }
